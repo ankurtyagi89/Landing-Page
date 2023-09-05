@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    height: 1040px;
+    padding: 62px 113px;
+    margin: 0 auto;
+}
+
+
+/* upper section  */
+
+.upper-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    width: 674px;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content h1 {
+    font-size: 88px;
+    line-height: 80px;
+}
+
+.info {
+    width: 526px;
+    height: 174px;
+}
+
+.info p {
+    width: 526px;
+    height: 108px;
+    font-size: 26px;
+    font-family: 'Alice', serif;
+}
+
+.info button {
+    width: 157px;
+    height: 50px;
+    padding: 16px 32px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    border-radius: 16px;
+}
+
+button:hover {
+    color: blueviolet;
+    font-weight: 700;
+
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+/* lower section  */
+
+.lower-section {
+    margin-top: 62px;
+}
+
+.lower-section img {
+    width: 100%;
+    height: 100%;
+}
